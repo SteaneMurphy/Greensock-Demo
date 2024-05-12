@@ -363,28 +363,3 @@ video
     font-variant: small-caps;
     font-size: 1.2rem;
 }
-
-/*.footerText
-{
-    position: absolute;
-    left: 2em;
-    width: 12%;
-    
-}
-
-#footerContHeader
-{
-    font-size: 1.5em;
-    font-weight: bolder;
-    color: white;
-}   
-
-.footerText > p
-{
-    font-family: "Motiva Sans", Sans-serif;
-    /*background-color: rgba(255, 255, 255, 0.577);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-variant: small-caps;
-    font-size: 1.2rem;
-} */
