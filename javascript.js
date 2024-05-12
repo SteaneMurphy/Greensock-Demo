@@ -362,3 +362,43 @@ function ChangeColour()
     })
 }
 
+var isOpen = false;
+
+function OpenFooter()
+{
+    var videoPanel = document.getElementById("videoPanel");
+    var footer = document.getElementById("footer");
+
+    if(isOpen == false)
+    {
+        isOpen = true;
+
+        document.getElementById("footerText").innerHTML = "Get Yours &#8595;";
+
+        gsap.to(videoPanel, {
+            height: "50vh",
+            duration: 0.5,
+        })
+        gsap.to(footer, {
+            height: "50vh",
+            duration: 0.5,
+        })
+    }
+    else
+    {
+        isOpen = false;
+
+        document.getElementById("footerText").innerHTML = "Get Yours &#8594;";
+
+        gsap.to(videoPanel, {
+            height: "100vh",
+            duration: 0.5,
+        })
+        gsap.to(footer, {
+            height: "5vh",
+            duration: 0.5,
+        });
+        
+    }
+}
+

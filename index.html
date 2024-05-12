@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div class="section4" onmouseenter="ChangeColour()">
+        <div id="videoPanel" class="section4" onmouseenter="ChangeColour()">
             <img class="sec4img" src="./images/deckTransp.png">
             <div class="fourthContText">
                 <p id="fourthContHeader">Your Steam Library, anywhere</p>
@@ -106,12 +106,11 @@
             </video> 
         </div>
 
-        <!--<div class="footer">
-            <div class="footerText">
-                <p id="footerContHeader">Add Deck to your Wishlist!</p>
-                <p>Steam Deck is now shipping to the United States, Canada, European Union, and the United Kingdom. More regions to come—stay tuned for more info.</p>
+        <div id="footer" class="footer">
+            <div class="footButton" onclick="OpenFooter()">
+                <span id="footerText">Get Yours &#8594;</span>
             </div>
-        </div>-->
+        </div>
     </div>
     <script src="javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> 
