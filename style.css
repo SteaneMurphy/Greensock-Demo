@@ -1,0 +1,361 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 7vh;
+    background: black;
+    position: fixed;
+    z-index: 10;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a
+{
+    color: white;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.navbarLinks
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a:hover
+{
+    color: #c43e5d;
+}
+
+#wishlist
+{
+    color: #c43e5d
+}
+
+.navbar > img
+{
+    width: 10%;
+    padding-left: 2rem;
+}
+
+.section1, .section2, .section3, .section4
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.section1
+{
+    position: relative;
+    display: inline;
+    background: white;
+    overflow: hidden;
+}
+
+.hero1
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero2 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.section2
+{
+    position: relative;
+    display: flex;
+    background: white;
+    overflow: hidden;
+}
+
+.hero3
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    right: -7em;
+}
+
+.logo
+{
+    position: absolute;
+    top: 15vh;
+    left: 1.4em;
+    width: 10%;
+}
+
+.secondContText
+{
+    position: absolute;
+    top: 25vh;
+    left: 2em;
+    width: 17%;
+    
+}
+
+.secondContText2
+{
+    position: absolute;
+    top: 65vh;
+    left: 4em;
+    width: 15%;
+    
+}
+
+#secondContHeader
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #c43e5d;
+}   
+
+.secondContText > p, .secondContText2 > p
+{
+    font-family: "Motiva Sans", Sans-serif;
+    /*background-color: rgba(255, 255, 255, 0.577);*/
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.section3
+{
+    background: black;   
+    overflow: hidden;
+    position: relative;
+    display: relative;
+}
+
+.logoMid
+{
+    position: absolute;
+    width: 10%;
+    right: 3em;
+    top: 2em;
+}
+
+.thirdContText
+{
+    position: absolute;
+    top: 5vh;
+    left: 20em;
+    width: 17%;
+    z-index: 10;
+}
+
+.thirdContText2
+{
+    position: absolute;
+    top: 5vh;
+    left: 51em;
+    width: 15%;
+    z-index: 10;
+    
+}
+
+.thirdContText3
+{
+    position: absolute;
+    top: 5vh;
+    right: 20em;
+    width: 15%;
+    z-index: 10;
+    
+}
+
+#thirdContHeader
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(196, 62, 93);
+}   
+
+.thirdContText > p, .thirdContText2 > p, .thirdContText3 > p
+{
+    font-family: "Motiva Sans", Sans-serif;
+    /*background-color: rgba(255, 255, 255, 0.577);*/
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.thirdContText > ul, .thirdContText2 > ul, .thirdContText3 > ul
+{
+    font-family: "Motiva Sans", Sans-serif;
+    /*background-color: rgba(255, 255, 255, 0.577);*/
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.hero4
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.section4
+{
+    background: rgb(0, 174, 218);
+    overflow: hidden;
+    opacity: 0;
+    position: relative;
+}
+
+.fourthContText
+{
+    position: absolute;
+    top: 10vh;
+    left: 2em;
+    width: 12%;
+}
+
+.fourthContText2
+{
+    position: absolute;
+    top: 45vh;
+    left: 2em;
+    width: 12%;
+    
+}
+
+#fourthContHeader
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+}   
+
+.fourthContText > p, .fourthContText2 > p, .fourthContText3 > p
+{
+    font-family: "Motiva Sans", Sans-serif;
+    /*background-color: rgba(255, 255, 255, 0.577);*/
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.section4 > img
+{
+    position: absolute;
+    z-index: 10;
+    width: 10%;
+    top: 5rem;
+    right: 2rem;
+}
+
+video
+{
+    width: 100%;
+    height: auto;
+    margin-left: 300px;
+}
+
+@media only screen and (max-width: 1600px)
+{
+    .secondContText > p, .secondContText2 > p
+    {
+        font-size: 1rem;
+    }
+
+    .thirdContText > ul, .thirdContText2 > ul, .thirdContText3 > ul
+    {
+        font-size: 1rem;
+    }
+
+    .thirdContText
+    {
+        left: 12rem;
+    }
+
+    .thirdContText2
+    {
+        left: 42rem;
+    }
+
+    .thirdContText3
+    {
+        right: 12rem;
+    }
+
+    .fourthContText > p, .fourthContText2 > p
+    {
+        font-size: 1rem;
+    }
+}
+
+/* .footer
+{
+    width: 100%;
+    height: 40vh;
+    background: white;
+    opacity: 1;
+    position: relative;
+}
+
+.footerText
+{
+    position: absolute;
+    left: 2em;
+    width: 12%;
+    
+}
+
+#footerContHeader
+{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+}   
+
+.footerText > p
+{
+    font-family: "Motiva Sans", Sans-serif;
+    /*background-color: rgba(255, 255, 255, 0.577);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+} */

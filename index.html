@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Deck</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="mainContainer">
+
+        <div class="navbar">
+            <img class="navLogo" src="./images/logoMin.png">
+            <div class="navbarLinks">
+                <div class="L1"><a href="">Steam Deck OLED</a></div>
+                <div class="L2"><a href="">Steam Deck LCD</a></div>
+                <div class="L3"><a href="">Dock</a></div>
+                <div class="L4"><a href="">Software</a></div>
+                <div class="L5"><a href="">Deck Verified</a></div>
+                <div class="L6"><a href="">Tech Specs</a></div>
+                <div class="L7"><a href="" id="wishlist">Add To Wishlist</a></div>
+            </div>
+        </div>
+
+        <div class="section1">
+            <img class="hero1" src="./images/hero2.png">
+            <img class="hero2" src="./images/hero3.png">
+        </div>
+        <div class="section2">
+            <img class="logo" src="./images/SteamDeckLogo.png">
+            <img class="hero3" src="./images/frontImg.png">
+            <div class=secondContText><p id="secondContHeader">Console-like experience</p>
+                <p>Steam Deck has a user-friendly interface specifically designed for its gamepad controls. 
+                Its software and operating system are tailored for Steam Deck, making it the easiest way to get 
+                into PC gaming.</p>
+            </div>
+            <div class="secondContText2">
+                <p id="secondContHeader">Lighter, cooler</p>
+                <p>Thanks to a bigger fan and updated thermals, Steam Deck OLED runs cooler. 
+                    It weighs 30g, or ~5% lighter than the LCD model, due to the screen.</p>
+            </div>
+        </div>
+        <div class="section3">
+            <img class="logoMid" src="./images/logoMid.png">
+            <img class="hero4" src="./images/sideView.jpg">
+            <div class=thirdContText>
+                <p id="thirdContHeader">256GB LCD</p>
+                <ul>
+                    <li>256GB NVMe SSD</li>
+                    <li>1280 x 800 LCD display</li>
+                    <li>7" Diagonal display size</li>
+                    <li>up to 60Hz refresh rate</li>
+                    <li>Wi-Fi 5</li>
+                    <li>40Whr battery; 2-8 hours of gameplay (content-dependent)</li>
+                    <li>45W Power supply with 1.5m cable</li>
+                    <li>Carrying case</li>
+                    <li>Steam profile bundle</li>
+                </ul>
+            </div>
+            <div class="thirdContText2">
+                <p id="thirdContHeader">512GB OLED</p>
+                <ul>
+                    <li>512GB NVMe SSD</li>
+                    <li>1280 x 800 HDR OLED display</li>
+                    <li>7.4" Diagonal display size</li>
+                    <li>up to 90Hz refresh rate</li>
+                    <li>Wi-Fi 6E</li>
+                    <li>50Whr battery; 3-12 hours of gameplay (content-dependent)</li>
+                    <li>45W Power supply with 2.5m cable</li>
+                    <li>Carrying case</li>
+                    <li>Steam profile bundle</li>
+                </ul>
+            </div>
+            <div class="thirdContText3">
+                <p id="thirdContHeader">1TB OLED</p>
+                <ul>
+                    <li>1TB NVMe SSD</li>
+                    <li>1280 x 800 HDR OLED display</li>
+                    <li>7.4" Diagonal display size</li>
+                    <li>up to 90Hz refresh rate</li>
+                    <li>Wi-Fi 6E</li>
+                    <li>50Whr battery; 3-12 hours of gameplay (content-dependent)</li>
+                    <li>45W Power supply with 2.5m cable</li>
+                    <li>Carrying case with removable liner</li>
+                    <li>Steam profile bundle</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section4" onmouseenter="ChangeColour()">
+            <img class="sec4img" src="./images/deckTransp.png">
+            <div class="fourthContText">
+                <p id="fourthContHeader">Your Steam Library, anywhere</p>
+                <p>Once you've logged into Steam Deck, your entire Steam Library shows up, just like any other PC. 
+                    You'll be able to find your collections and favorites - exactly where you left them.</p>
+            </div>
+            <div class="fourthContText2">
+                <p id="fourthContHeader">Steam just works on Deck</p>
+                <p>Steam on Deck has been optimized for gamepad controls, and is the easiest way to get into PC gaming.
+
+                    Playing, buying, finding games, adjusting settings and adding peripherals, updating games, drivers, and system software—all these 
+                    things are incredibly easy to do without any fuss. And just like Steam on PC, it gets better with every update.</p>
+            </div>
+            <video class="video" width="320" height="240" autoplay loop muted>
+                <source src="./images/baldurs.mp4" type="video/mp4">
+            </video> 
+        </div>
+
+        <!--<div class="footer">
+            <div class="footerText">
+                <p id="footerContHeader">Add Deck to your Wishlist!</p>
+                <p>Steam Deck is now shipping to the United States, Canada, European Union, and the United Kingdom. More regions to come—stay tuned for more info.</p>
+            </div>
+        </div>-->
+    </div>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+</body>
+</html>
